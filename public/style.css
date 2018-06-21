@@ -24,7 +24,25 @@ h1 {
 }
 
 .videoheight {
-  height: 900px;
+  height: 950px;
+}
+
+.site-header a {
+  color: #fff;
+  transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+  color: #999;
+  text-decoration: none;
+}
+
+.profile-header a {
+  color: #999;
+  transition: ease-in-out color .15s;
+}
+.profile-header a:hover {
+  color: blue;
+  text-decoration: none;
 }
 
 .bold {
